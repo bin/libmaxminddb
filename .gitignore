@@ -36,3 +36,6 @@ Makefile.in
 \#*\#
 aclocal.m4
 stamp-h*
+tags
+tags.lock
+tags.temp
