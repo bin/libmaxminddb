@@ -242,7 +242,6 @@ extern int MMDB_get_entry_data_list(
 extern void MMDB_free_entry_data_list(
     MMDB_entry_data_list_s *const entry_data_list);
 extern void MMDB_close(MMDB_s *const mmdb);
-extern const char *MMDB_lib_version(void);
 extern int MMDB_dump_entry_data_list(FILE *const stream,
                                      MMDB_entry_data_list_s *const entry_data_list,
                                      int indent);

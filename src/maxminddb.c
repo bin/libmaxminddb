@@ -1904,11 +1904,6 @@ LOCAL void free_descriptions_metadata(MMDB_s *mmdb)
     FREE_AND_SET_NULL(mmdb->metadata.description.descriptions);
 }
 
-const char *MMDB_lib_version(void)
-{
-    return PACKAGE_VERSION;
-}
-
 int MMDB_dump_entry_data_list(FILE *const stream,
                               MMDB_entry_data_list_s *const entry_data_list,
                               int indent)
